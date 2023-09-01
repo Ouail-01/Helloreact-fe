@@ -1,9 +1,8 @@
-/* eslin-disable */
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchRandomGreeting } from '../redux/greetingSlice';
 
-const MyGreetings = () => {
+function MyGreetings() {
   const dispatch = useDispatch();
   const randomGreeting = useSelector((state) => state.greeting.randomGreeting);
 
@@ -17,6 +16,6 @@ const MyGreetings = () => {
       <p>{randomGreeting}</p>
     </div>
   );
-};
+}
 
 export default MyGreetings;

@@ -1,9 +1,8 @@
-/* eslint-disable */
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 export const fetchRandomGreeting = createAsyncThunk('greeting/fetchRandomGreeting', async () => {
-  const response = await axios.get('http://localhost:3000/api/greetings/random');
+  const response = await axios.get('http://localhost:3001/api/greetings/random');
   return response.data.greeting;
 });
 

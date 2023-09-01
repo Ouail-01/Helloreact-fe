@@ -1,4 +1,3 @@
-/* eslin-disable */
 import React from 'react';
 import MyGreetings from '../components/greetings';
 
