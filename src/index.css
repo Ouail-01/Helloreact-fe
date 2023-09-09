@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   margin: 0;
   font-family:
@@ -43,5 +44,4 @@ code {
 .greeting p {
   margin-top: 20px;
   font-size: 27px;
-
 }
