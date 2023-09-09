@@ -11,8 +11,8 @@ function MyGreetings() {
   }, [dispatch]);
 
   return (
-    <div>
-      <h1>Random Greeting:</h1>
+    <div className="greeting">
+      <h1>Random Greeting :</h1>
       <p>{randomGreeting}</p>
     </div>
   );
